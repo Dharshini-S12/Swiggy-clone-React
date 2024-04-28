@@ -84,13 +84,39 @@ nav{
   color: rgb(245, 103, 9);
 }
 /*Navigation-ends*/
+/*Resturant-cards-start*/
+.body-container-cards{
+  margin-left: 213px;
+  margin-top: 97px;
+  width: 1200px;
+}
+.body-title-cards{
+    font-size: 22px;
+    font-weight: 600;
+}
+.pic{
+  height: 175px;
+  width: 140px;
+  border-radius: 1rem;
+  
+}
+.anchorfood{
+  cursor: pointer;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow: scroll;
+}
+/*Resturant-cards-end*/
 /*Navdownlink-start*/
 .body-container-navdown{
   background: #fff;
 }
  .horizontal-tag1{
   margin-left: 220px;
-  margin-top: 90px;
+  margin-top: 20px;
   color: rgb(255, 255, 255);
 }
 .body-title-navdown{
@@ -100,6 +126,7 @@ nav{
   max-width: 1080px;
   margin: 0 auto;
   font-size: 22px;
+  font-weight: 600;
 }
 .body-button{
   display: flex;
@@ -209,6 +236,7 @@ nav{
   max-width: 1080px;
   margin: 0 auto;
   font-size: 22px;
+  font-weight: 600;
 }
 .resturant-container-main{
   display: flex;
@@ -440,6 +468,8 @@ div{
 
 
 
+
+
 /*Media query start*/
 @media only screen and (max-width : 600px){
 /*Navigation-start*/
@@ -454,6 +484,13 @@ div{
   height: 39px;
 }
 /*Navigation-end*/
+/*Resturant-crads-start*/
+.body-container-cards{
+  margin-left: 30px;
+  margin-top: 97px;
+  width: 300px;
+}
+/*Resturant-crads-end*/
 
 /*Navidownlink-start*/
 .horizontal-tag1{
@@ -462,6 +499,7 @@ div{
 .body-title-navdown{
   font-size: 16px;
   margin-left: 30px;
+  margin-top: -60px;
 }
 .body-button{
   display: flex;

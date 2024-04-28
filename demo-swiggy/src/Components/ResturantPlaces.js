@@ -136,7 +136,7 @@ function RestaurantPlaces() {
 
 
     <div className='resturant-container-mains-1'>
-        <h1 className='t1'>Live it up!</h1>
+        <h1 className='t1'>Live it up! </h1>
         <div className='t2'>Crafted with ❤️ by Dharshini</div>
     </div>
 
