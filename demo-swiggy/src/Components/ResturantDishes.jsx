@@ -210,7 +210,8 @@ function ResturantDishes() {
     const ImageContainer = ({ data }) => {
       return (
         <div className='body-image-container'>
-          <a href='' className='body-image-container-anchor'>
+          
+          <a href=' ' className='body-image-container-anchor'>
             <div className="body-image-container-1">
               <img className='body-image-container-pic' src={data.img} alt="Your alt text" />
               <div className="centered">10% OFF UPTO ₹100</div>
